@@ -1,5 +1,5 @@
 {
-    "name": "tomyates/yii2-aws-sdk",
+    "name": "stopford/yii2-aws-sdk",
     "description": "A collection of classes extending Yii2",
     "license": "proprietary",
     "authors": [
@@ -14,6 +14,6 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "psr-4": {"tomyates\\yii2\\aws\\sdk\\": ""}
+        "psr-4": {"stopfordisptm\\yii2\\aws\\sdk\\": ""}
     }
 }

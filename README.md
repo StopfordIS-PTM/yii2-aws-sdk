@@ -19,7 +19,7 @@ Add the following to your `composer.json` file to look for packages in this repo
 
 Then..
 
-`composer require tomyates/yii2-aws-sdk`
+`composer require stopfordisptm/yii2-aws-sdk`
 
 # Set up
 
@@ -33,7 +33,7 @@ return [
     //....
     'components' => [
         'awssdk' => [
-            'class' => 'tomyates\awssdk\AwsSdk',
+            'class' => 'stopfordisptm\awssdk\AwsSdk',
             'region' => 'eu-west-1', //i.e.: 'us-east-1'
             'version' => 'latest', //i.e.: 'latest'
             'profile' => 'kyb-sns', //for local testing only, not needed on production
@@ -45,7 +45,7 @@ return [
 Send SMS:
 ```
 try {
-		$result = Yii::$app->awssdk->sendSMS('tomyatesGarage','Hi there. This is a test SMS from kybee api','+447973470928');
+		$result = Yii::$app->awssdk->sendSMS('stopfordisptmGarage','Hi there. This is a test SMS from kybee api','+447973470928');
 	}
 	catch (\Exception $e)
 	{

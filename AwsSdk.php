@@ -1,6 +1,6 @@
 <?php
 
-namespace tomyates\awssdk;
+namespace stopfordisptm\awssdk;
 use yii\base\Component;
 use Aws;
 
